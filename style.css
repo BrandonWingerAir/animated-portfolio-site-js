@@ -38,7 +38,7 @@ nav {
 
 b {
     font-size: 70px;
-    color: #7f00ff;
+    color: #1e88e5;
 }
 
 .navItems {
@@ -60,7 +60,7 @@ b {
 
 .navItems li:hover a,
 .links a:hover {
-    color: #7f00ff;
+    color: #1e88e5;
 }
 
 .links a {
@@ -97,7 +97,7 @@ b {
     height: 4px;
     width: 45px;
     bottom: 10px;
-    background-color: #7f00ff;
+    background-color: #1e88e5;
 }
 
 h1 {
@@ -108,7 +108,7 @@ h1 {
 }
 
 .multiText {
-    color: #7f00ff;
+    color: #1e88e5;
     text-transform: capitalize;
 }
 
@@ -122,7 +122,7 @@ p {
 .btns {
     width: 100%;
     position: relative;
-    left: 150px;
+    left: 75px;
 }
 
 button {
@@ -141,5 +141,28 @@ button {
 }
 
 button:hover {
-    background-color: #7f00ff;
+    background-color: #1e88e5;
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img-box img {
+    position: relative;
+    height: 100%;
+    width: calc(130% - 80px);
+    top: -100px;
+    right: 50px;
+    transform: rotateY(180px);
+    animation: animateUser 4s linear infinite;
+}
+
+@keyframes animateUser {
+    50% {
+        right: 30px;
+        top: -90px;
+    }
 }
