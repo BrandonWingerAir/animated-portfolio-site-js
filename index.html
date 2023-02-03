@@ -29,7 +29,7 @@
             <div class="col col-0">
                 <span class="top-text">Hello</span>
                 <h1>I'm </h1><div class="multiText"><h1>Coding</h1><h1>Coding</h1></div>
-                <h2>brandonWingerAir</h2>
+                <h2><span id="typeText">brandonWingerAir</span></h2>
                 <div class="btns">
                     <button>Download CV</button>
                     <button>Contact Me</button>
@@ -44,5 +44,14 @@
         </div>
         <div class="drop drop-2"></div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed("#typeText", {
+            strings: ["brandonWingerAir"],
+            backSpeed: 200,
+            startDelay: 1200
+        });
+    </script>
 </body>
 </html>

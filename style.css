@@ -158,6 +158,7 @@ b {
 }
 
 .col-0 {
+    width: 60%;
     z-index: 5;
 }
 
