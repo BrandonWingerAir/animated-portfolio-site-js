@@ -119,7 +119,6 @@ b {
     top: 40%;
     /* background: linear-gradient(45deg, #1e88e5, #fafafa); */
     animation: object1 6s linear infinite;
-    
 }
 
 .drop-2 {
@@ -312,3 +311,84 @@ button:hover {
         width: 120%;
     }
 }
+
+@media only screen and (max-width: 1536px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .navItems {
+        display: block;
+    }
+    
+    .navItems li {
+        display: inline-block;
+    }
+
+    .drop-1 {
+        left: -12%;
+        top: 60%;
+    }
+
+    .drop-2 {
+        left: 70%;
+        top: 10%;
+    }
+
+    @keyframes object1 {
+        50% {
+            left: -12%;
+            top: 55%;
+        }
+    }
+
+    @keyframes object2 {
+        50% {
+            left: 70%;
+            top: 15%;
+        }
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    .multiText h1 {
+        top: -80px;
+        left: 20px;
+    }
+
+    .img-box img {
+        top: -100px;
+        right: -50px;
+    }
+
+    .img-box #splash {
+        top: 50%;
+        left: 60%;
+    }
+
+    @keyframes animateUser {
+        50% {
+            right: -70px;
+            top: -90px;
+        }
+    }
+
+    @keyframes animate {
+        50% {
+            top: 49%;
+            left: 55%;
+        }
+    }
+
+    button {
+        margin: 15px 10px;
+        margin-left: 0;
+    }
+  }
