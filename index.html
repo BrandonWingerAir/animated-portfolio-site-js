@@ -13,7 +13,7 @@
         <nav>
             <div class="logo">Portfol.io</div>
             <ul class="navItems">
-                <li><a href="#!">home</a></li>
+                <li id="home-link"><a href="#!">home</a></li>
                 <li><a href="#!">projects</a></li>
                 <li><a href="#!">clients</a></li>
                 <li><a href="#!">about</a></li>
@@ -49,8 +49,14 @@
     <script>
         var typingEffect = new Typed("#typeText", {
             strings: ["brandonWingerAir"],
-            backSpeed: 200,
-            startDelay: 1200
+            // backSpeed: 200,
+            // startDelay: 200
+            // backDelay: 1200,
+            
+            typeSpeed: 100,
+            backSpeed: 0,
+            fadeOut: true,
+            loop: true
         });
     </script>
 </body>

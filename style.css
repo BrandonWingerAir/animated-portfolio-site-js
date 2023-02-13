@@ -47,11 +47,11 @@ b {
 
 .navItems li {
     list-style: none;
-    margin: 0 15px;
+    margin: 0 32px;
 }
 
 .navItems li a {
-    font-size: 25px;
+    font-size: 30px;
     color: #3d535f;
     letter-spacing: 3px;
     text-decoration: none;
@@ -64,7 +64,7 @@ b {
 }
 
 .links a {
-    font-size: 30px;
+    font-size: 32px;
     color: #3d535f;
     margin: 25px 10px;
 }
@@ -299,6 +299,7 @@ button:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-35deg);
+    height: 110%;
     width: 110%;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
@@ -308,6 +309,7 @@ button:hover {
     50% {
         top: 49%;
         left: 51%;
+        height: 120%;
         width: 120%;
     }
 }
@@ -390,5 +392,92 @@ button:hover {
     button {
         margin: 15px 10px;
         margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    nav {
+        line-height: 55px;
+    }
+
+    #home-link {
+        display: none;
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
+
+    .navItems li {
+        margin: 0 8px;
+    }
+
+    .navItems li a {
+        font-size: 22px;
+    }
+
+    .wrapper {
+        align-items: start;
+        padding-top: 220px; 
+    }
+
+    .top-text {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 3.2em;
+    }
+
+    .multiText h1 {
+        top: -57px;
+        left: 12px;
+    }
+
+    .btns {
+        width: 250px;
+    }
+
+    .drop-1 {
+        left: -100%;
+        top: 80%;
+    }
+
+    .drop-2 {
+        left: 70%;
+        top: 10%;
+    }
+
+    @keyframes object1 {
+        50% {
+            left: -35%;
+            top: 65%;
+        }
+    }
+
+    @keyframes object2 {
+        50% {
+            left: 70%;
+            top: 15%;
+        }
+    }
+
+    .img-box {
+        width: 200%;
+        height: 200%;
+        margin-top: 350px;
+        left: -50%;
+    }
+    
+    .img-box  #splash {
+        height: 150%;
+        width: 150%;
+    }
+
+    @keyframes animate {
+        50% {
+            height: 165%;
+            width: 165%;
+        }
     }
   }
