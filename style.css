@@ -450,7 +450,7 @@ button:hover {
 
     @keyframes object1 {
         50% {
-            left: -35%;
+            left: -100%;
             top: 65%;
         }
     }
